@@ -1,0 +1,25 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: kcrp-mededu-ufe-link
+spec:
+  microFrontend: polyfea-md-shell
+  element: polyfea-md-app
+  attributes:
+    - name: headline
+      value: MedEdu školenia KCRP
+    - name: short-headline
+      value: MedEdu KCRP
+    - name: supporting-text
+      value: |
+        Spravuje interné školenia, kapacity a registrácie nemocničného personálu
+    - name: material-icon
+      value: school
+    - name: href
+      value: ./kcrp-mededu/trainings
+  priority: 10
+  displayRules:
+    - anyOf:
+      - context-name: applications
+      - context-name: rail-content
+      - context-name: drawer-content
