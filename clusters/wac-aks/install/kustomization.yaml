@@ -12,6 +12,7 @@ labels:
 
 resources:
 - ../../../apps/kcrp-mededu-ufe
+- ../../../apps/kcrp-mededu-webapi
 
 components:
 - ../../../components/version-release
