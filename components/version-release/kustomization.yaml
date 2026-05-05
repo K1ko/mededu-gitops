@@ -3,9 +3,8 @@ kind: Component
 images:
 - name: xcervenkak/mededu-ufe
   newName: xcervenkak/mededu-ufe
-  newTag: 1.1.0
+  newTag: 1.2.0
 - name: xcervenkak/mededu-webapi
   newName: xcervenkak/mededu-webapi
-  newTag: 1.1.0
-
+  newTag: 1.2.0
 
