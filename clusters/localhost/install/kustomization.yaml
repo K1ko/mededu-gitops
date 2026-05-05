@@ -10,6 +10,7 @@ labels:
 resources:
 - ../../../apps/kcrp-mededu-ufe
 - ../../../apps/kcrp-mededu-webapi
+- ../../../apps/mongo-express
 
 patches:
 - path: patches/mededu-webapi.service.yaml
