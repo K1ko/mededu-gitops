@@ -3,4 +3,4 @@ kind: Component
 images:
 - name: xcervenkak/mededu-ufe
   newName: xcervenkak/mededu-ufe # {"$imagepolicy":  "wac-hospital:mededu-ufe:name"}
-  newTag: main.20260505.1446 # {"$imagepolicy": "wac-hospital:mededu-ufe:tag"}
+  newTag: main.20260505.1634 # {"$imagepolicy": "wac-hospital:mededu-ufe:tag"}
