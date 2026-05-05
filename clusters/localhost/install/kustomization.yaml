@@ -9,6 +9,11 @@ labels:
 
 resources:
 - ../../../apps/kcrp-mededu-ufe
+- ../../../apps/kcrp-mededu-webapi
+
+patches:
+- path: patches/mededu-webapi.service.yaml
 
 components:
 - ../../../components/version-developers
+- https://github.com/K1ko/mededu-webapi//deployments/kustomize/components/mongodb
