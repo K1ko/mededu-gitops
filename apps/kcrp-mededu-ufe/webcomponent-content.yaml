@@ -8,8 +8,6 @@ spec:
   attributes:
     - name: base-path
       value: /kcrp-mededu-trainings/
-    - name: api-base
-      value: /kcrp-mededu-api
   displayRules:
     - allOf:
       - context-name: main-content
