@@ -4,8 +4,10 @@ metadata:
   name: kcrp-mededu-trainings-content
 spec:
   microFrontend: kcrp-mededu-ufe
-  element: kcrp-mededu-training-list
+  element: kcrp-mededu-trainings-app
   attributes:
+    - name: base-path
+      value: /kcrp-mededu-trainings/
     - name: api-base
       value: /kcrp-mededu-api
   displayRules:
