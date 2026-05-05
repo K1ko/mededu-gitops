@@ -6,7 +6,7 @@ spec:
   title: MedEdu
   description: Sprava katalogu internych skoleni nemocnicneho personalu
   authors: Kristian Cervenka, Rastislav Pasek
-  azureLink: "https://wac-hospital.westeurope.cloudapp.azure.com/fea/kcrp-mededu-trainings"
+  azureLink: "https://kcrp-mededu.azurewebsites.net/"
   frontendRepoUrl: "https://github.com/K1ko/mededu-ufe"
   backendRepoUrl: "https://github.com/K1ko/mededu-webapi"
   gitopsRepoUrl: "https://github.com/K1ko/mededu-gitops"
