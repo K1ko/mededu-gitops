@@ -9,6 +9,9 @@ labels:
     app.kubernetes.io/name: kcrp-mededu-ufe
   includeSelectors: true
   includeTemplates: true
+- pairs:
+    wac-fiit.github.io/project: kcrp-mededu
+  includeTemplates: true
 
 resources:
 - ../../../apps/kcrp-mededu-ufe

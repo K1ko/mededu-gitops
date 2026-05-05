@@ -1,0 +1,12 @@
+apiVersion: wac-fiit.github.io/v1alpha1
+kind: Project
+metadata:
+  name: kcrp-mededu
+spec:
+  title: MedEdu
+  description: Sprava katalogu internych skoleni nemocnicneho personalu
+  authors: Kristian Cervenka, Rastislav Pasek
+  azureLink: "https://wac-hospital.westeurope.cloudapp.azure.com/fea/kcrp-mededu-trainings"
+  frontendRepoUrl: "https://github.com/K1ko/mededu-ufe"
+  backendRepoUrl: "https://github.com/K1ko/mededu-webapi"
+  gitopsRepoUrl: "https://github.com/K1ko/mededu-gitops"

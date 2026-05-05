@@ -11,3 +11,5 @@ resources:
 labels:
 - pairs:
     app.kubernetes.io/component: kcrp-mededu-ufe
+    wac-fiit.github.io/component: frontend
+  includeTemplates: true
