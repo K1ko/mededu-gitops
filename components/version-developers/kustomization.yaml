@@ -6,4 +6,4 @@ images:
   newTag: main.20260505.1659 # {"$imagepolicy": "wac-hospital:mededu-ufe:tag"}
 - name: xcervenkak/mededu-webapi
   newName: xcervenkak/mededu-webapi # {"$imagepolicy":  "wac-hospital:mededu-webapi:name"}
-  newTag: main # {"$imagepolicy": "wac-hospital:mededu-webapi:tag"}
+  newTag: main.20260505.1918 # {"$imagepolicy": "wac-hospital:mededu-webapi:tag"}
