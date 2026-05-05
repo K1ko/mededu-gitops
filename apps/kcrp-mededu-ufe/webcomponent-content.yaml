@@ -9,7 +9,7 @@ spec:
     - name: base-path
       value: /kcrp-mededu-trainings/
     - name: api-base
-      value: http://localhost:30081/api
+      value: /kcrp-api
   displayRules:
     - allOf:
       - context-name: main-content

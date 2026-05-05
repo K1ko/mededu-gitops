@@ -1,0 +1,50 @@
+apiVersion: gateway.networking.k8s.io/v1
+kind: HTTPRoute
+metadata:
+  name: kcrp-mededu-webapi
+spec:
+  parentRefs:
+    - name: wac-hospital-gateway
+      namespace: wac-hospital
+    - name: wac-hospital-gateway
+      namespace: wac-hospital-system
+  rules:
+    - matches:
+        - path:
+            type: PathPrefix
+            value: /kcrp-api
+      filters:
+        - type: URLRewrite
+          urlRewrite:
+            path:
+              type: ReplacePrefixMatch
+              replacePrefixMatch: /api
+      backendRefs:
+        - group: ""
+          kind: Service
+          name: kcrp-mededu-webapi
+          port: 80
+    - matches:
+        - path:
+            type: PathPrefix
+            value: /kcrp-openapi-ui
+      backendRefs:
+        - group: ""
+          kind: Service
+          name: kcrp-openapi-ui
+          port: 80
+    - matches:
+        - path:
+            type: Exact
+            value: /kcrp-openapi
+      filters:
+        - type: URLRewrite
+          urlRewrite:
+            path:
+              type: ReplaceFullPath
+              replaceFullPath: /openapi
+      backendRefs:
+        - group: ""
+          kind: Service
+          name: kcrp-mededu-webapi
+          port: 80
