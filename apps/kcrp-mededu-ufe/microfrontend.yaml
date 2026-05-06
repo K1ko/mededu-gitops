@@ -3,7 +3,7 @@ kind: MicroFrontend
 metadata:
   name: kcrp-mededu-ufe
 spec:
-  cacheBustingHash: v1.2.0
+  cacheBustingHash: v1.2.1
   frontendClass: md-shell # default obsiahnutý v základe polyfea md-shell
   service:
     name: kcrp-mededu-ufe # referencia na službu odkiaľ sa má načítať modul
